@@ -1,0 +1,18 @@
+
+Instructions
+
+Convertir le modèle de relation d'entité en diagramme relationnel:
+
+
+
+Résulat:
+
+Hôtel(Hotel_id, Hotel_name)
+
+Employée(Employée_id, Employée_name, Employée_spécialité, #Hotel_id)
+
+Room(Room_id, Floor , #Hotel_id, #Category_id)
+
+Catégory (Category_id, Category_name, prix, Beds_numbers)
+
+Type(Type_id, Type_name)
